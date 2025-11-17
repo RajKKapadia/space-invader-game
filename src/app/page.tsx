@@ -384,7 +384,7 @@ export default function SpaceInvaders() {
     <div className="min-h-screen bg-black text-cyan-400 flex flex-col items-center justify-center p-4">
       <div className="max-w-4xl w-full">
         <div className="text-center mb-8">
-          <h1 className="text-6xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600">
+          <h1 className="text-6xl font-bold mb-2 text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-pink-600">
             SPACE INVADERS
           </h1>
           <p className="text-xl text-pink-500">CYBERPUNK EDITION</p>
@@ -411,7 +411,7 @@ export default function SpaceInvaders() {
           <div className="text-center mt-8">
             <Button
               onClick={startGame}
-              className="bg-gradient-to-r from-cyan-500 to-pink-600 hover:from-cyan-600 hover:to-pink-700 text-white font-bold py-4 px-8 text-xl"
+              className="bg-linear-to-r from-cyan-500 to-pink-600 hover:from-cyan-600 hover:to-pink-700 text-white font-bold py-4 px-8 text-xl"
             >
               START GAME
             </Button>
@@ -428,7 +428,7 @@ export default function SpaceInvaders() {
             <p className="text-2xl text-cyan-400 mb-4">FINAL SCORE: {score}</p>
             <Button
               onClick={startGame}
-              className="bg-gradient-to-r from-cyan-500 to-pink-600 hover:from-cyan-600 hover:to-pink-700 text-white font-bold py-4 px-8 text-xl"
+              className="bg-linear-to-r from-cyan-500 to-pink-600 hover:from-cyan-600 hover:to-pink-700 text-white font-bold py-4 px-8 text-xl"
             >
               PLAY AGAIN
             </Button>
